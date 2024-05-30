@@ -15,7 +15,7 @@
         },
         {
             "name": "keyword.control.walrur",
-            "match": "\\b(Kiírás|HA|AMEDDIG)\\b"
+            "match": "\\b(Kiírás|HA|AMEDDIG|ALPROGRAM)\\b"
         },
         {
             "name": "string.walrur",
