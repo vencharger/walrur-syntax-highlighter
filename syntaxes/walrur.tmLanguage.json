@@ -1,0 +1,33 @@
+{
+    "name": "Walrur",
+    "scopeName": "source.walrur",
+    "fileTypes": [
+        "wa"
+    ],
+    "patterns": [
+        {
+            "name": "variable",
+            "match": "\\b(sz|b)\\s+[a-zA-Z_]+\\b",
+            "captures": {
+                "1": { "name": "keyword.other.walrur" },
+                "2": { "name": "variable.other.walrur" }
+            }
+        },
+        {
+            "name": "keyword.control.walrur",
+            "match": "\\b(Kiírás|HA|AMEDDIG)\\b"
+        },
+        {
+            "name": "string.walrur",
+            "match": "(.*?)"
+        },
+        {
+            "name": "constant.numeric.walrur",
+            "match": "\\b\\d+\\b"
+        },
+        {
+            "name": "comment.line.double-slash.walrur",
+            "match": "//.*$"
+        }
+    ]
+}

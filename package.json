@@ -1,0 +1,25 @@
+{
+  "name": "walrur-syntax-highlighter",
+  "displayName": "walrur",
+  "description": "Syntax highlighting support for Walrur Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "walrur",
+      "aliases": ["Walrur", "walrur"],
+      "extensions": [".wa"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "walrur",
+      "scopeName": "source.walrur",
+      "path": "./syntaxes/walrur.tmLanguage.json"
+    }]
+  }
+}
