@@ -15,7 +15,11 @@
         },
         {
             "name": "keyword.control.walrur",
-            "match": "\\b(Kiírás|HA|AMEDDIG|ALPROGRAM)\\b"
+            "match": "\\b(Kiírás|HA|AMEDDIG|ALPROGRAM|GYÖK)\\b"
+        },
+        {
+            "name": "entity.name.function.walrur",
+            "match": "\\b\\w+\\.használat\\(\\)"
         },
         {
             "name": "string.walrur",
